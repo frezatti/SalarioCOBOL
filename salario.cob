@@ -10,8 +10,8 @@
        DATA                                                 DIVISION.
        WORKING-STORAGE SECTION.
        77   WRK-NOME              PIC X(30)        VALUE SPACES.
-       77   WRK-TEMPO-EMPRESA     PIC 9(02)        VALUE ZEROES.
-       77   WRK-SALARIO-BASE      PIC 9(06)V99     VALUE ZEROES.
+       77   WRK-TEMPO-EMPRESA     PIC S9(02)        VALUE ZEROES.
+       77   WRK-SALARIO-BASE      PIC S9(06)V99     VALUE ZEROES.
        77   WRK-SALARIO-FINAL     PIC 9(06)V99     VALUE ZEROES.
        77   WRK-PERCENTUAL-BONUS  PIC 9(02)        VALUE ZEROES.
        77   WRK-BONUS             PIC 9(06)V99     VALUE ZEROES.
